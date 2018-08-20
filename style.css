@@ -1,0 +1,112 @@
+body {
+    background-color: #e0e0e0;
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+}
+
+.navbar-brand{
+    color: white;
+    background-color: #21be9c;
+    font-size: 24px;
+    padding: 10px;
+    font-family: "Verdana";
+    height: 100%
+}
+
+.web-container {
+    padding: 10px;
+}
+
+
+.web-box {
+    min-height: 50px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+}
+
+.web-box-title {
+    font-family: "Verdana";
+    color: #21be9c;
+    font-size: 28px;
+    padding-top:0px;
+    padding-bottom:20px;
+    padding-left:10px;
+    border-bottom: 1px solid #dcdcdc;
+
+
+}
+
+.web-box-text {
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+    word-spacing: .1em;
+    line-height: 1.8em;
+    text-align: left;
+}
+
+.web-box-text p {
+    padding: 5px;
+}
+
+
+.web-footer {
+    position: fixed;
+    border-top: 5px solid #21be9c;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #777777;
+}
+
+.web-element {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+
+.web-instruction {
+
+    font-family: "Verdana";
+    font-size: 12px;
+    font-weight: 100;
+    padding: 20px;
+
+}
+
+
+.web-image-box {
+
+    font-family: "Verdana";
+    font-size: 12px;
+    display: block;
+    flex: none;
+    text-align: center;
+    align-content: center;
+}
+
+.web-image-title {
+
+    display: block;
+    font-family: "Verdana";
+    font-size: 20px;
+    flex: none;
+    text-align: center;
+    align-content: center;
+    color: #21be9c;
+    padding-top: 10px;
+}
